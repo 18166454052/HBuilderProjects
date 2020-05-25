@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "首页",
+  "usingComponents": {
+    "page-status": "/components/status",
+    "page-header": "/pages/tabBar/home/pageHeader"
+  }
+}

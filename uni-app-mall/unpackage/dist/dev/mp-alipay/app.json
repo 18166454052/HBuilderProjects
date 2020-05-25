@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/tabBar/home/home",
+    "pages/tabBar/category/category",
+    "pages/tabBar/cart/cart",
+    "pages/tabBar/user/user",
+    "pages/goods/goodsList",
+    "pages/goods/goods",
+    "pages/goods/ratings",
+    "pages/order/confirm",
+    "pages/tabBar/user/qrcode"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "米修在线",
+    "titleBarColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "textColor": "#333333",
+    "selectedColor": "#f06c7a",
+    "backgroundColor": "#FFFFFF",
+    "items": [
+      {
+        "pagePath": "pages/tabBar/home/home",
+        "name": "首页",
+        "icon": "static/img/tabBar/home.png",
+        "activeIcon": "static/img/tabBar/home-on.png"
+      },
+      {
+        "pagePath": "pages/tabBar/category/category",
+        "name": "分类",
+        "icon": "static/img/tabBar/category.png",
+        "activeIcon": "static/img/tabBar/category-on.png"
+      },
+      {
+        "pagePath": "pages/tabBar/cart/cart",
+        "name": "购物车",
+        "icon": "static/img/tabBar/cart.png",
+        "activeIcon": "static/img/tabBar/cart-on.png"
+      },
+      {
+        "pagePath": "pages/tabBar/user/user",
+        "name": "我的",
+        "icon": "static/img/tabBar/user.png",
+        "activeIcon": "static/img/tabBar/user-on.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "page-status": "/components/status"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "分类查询",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "page-status": "/components/status",
+    "goods-header": "/pages/categoryList/header"
+  }
+}
